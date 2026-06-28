@@ -1,5 +1,6 @@
 import { Star, ShieldCheck, Check, Sparkles, ChevronRight } from "lucide-react";
 import { motion } from "motion/react";
+import luxuryRoofHero from "../assets/images/luxury_roof_hero_1782024697889.jpg";
 
 interface HeroSectionProps {
   isDarkMode: boolean;
@@ -192,7 +193,7 @@ export default function HeroSection({
             >
               {/* Overlapping golden hour image */}
               <img
-                src="/src/assets/images/luxury_roof_hero_1782024697889.jpg"
+                src={luxuryRoofHero}
                 alt="Luxury Roofworks Installation"
                 className="w-full h-full object-cover transform hover:scale-[1.03] transition-transform duration-700 pointer-events-none"
                 referrerPolicy="no-referrer"

@@ -1,4 +1,8 @@
 import { ServiceItem, PortfolioItem, TestimonialItem } from "./types";
+import luxuryRoofHero from "./assets/images/luxury_roof_hero_1782024697889.jpg";
+import metalRoofTexture from "./assets/images/metal_roof_texture_1782024714335.jpg";
+import shingleDetail from "./assets/images/shingle_detail_1782024742816.jpg";
+import roofingCraftsman from "./assets/images/roofing_craftsman_1782024726939.jpg";
 
 export const SERVICES: ServiceItem[] = [
   {
@@ -62,7 +66,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     category: "Residential",
     location: "West Lake Hills, Austin",
     description: "Designed to match an ultra-modern multi-level estate, featuring charcoal architectural slate accents blending seamlessly into the hillside foliage.",
-    image: "/src/assets/images/luxury_roof_hero_1782024697889.jpg",
+    image: luxuryRoofHero,
     materials: "Premium Signature Composite Slate",
     completionDate: "May 2026",
     rating: 5
@@ -73,7 +77,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     category: "Metal",
     location: "Barton Creek, TX",
     description: "A gorgeous luxury home outfitted with structural matte-black standing seam metal panels. Includes integrated hidden gutter drainage and high-performance solar cells.",
-    image: "/src/assets/images/metal_roof_texture_1782024714335.jpg",
+    image: metalRoofTexture,
     materials: "Grade-A Kynar-Coated 24-Gauge Steel",
     completionDate: "April 2026",
     rating: 5
@@ -84,7 +88,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     category: "Residential",
     location: "Pemberton Heights, Austin",
     description: "Full historic renovation replacement of dynamic multi-pitch Tudor roof, selecting premium heavy-textured interlocking shingles to preserve period aesthetics.",
-    image: "/src/assets/images/shingle_detail_1782024742816.jpg",
+    image: shingleDetail,
     materials: "Century Architectural Asphalt Shingles",
     completionDate: "March 2026",
     rating: 5
@@ -95,7 +99,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     category: "Commercial",
     location: "Austin Tech District",
     description: "Drone inspection and micro-leak repair followed by localized TPO membrane laying and solar-reflective coating to lower high HVAC utility fees.",
-    image: "/src/assets/images/roofing_craftsman_1782024726939.jpg",
+    image: roofingCraftsman,
     materials: "80-Mil EnergyStar TPO & Core Diagnostics",
     completionDate: "June 2026",
     rating: 5
