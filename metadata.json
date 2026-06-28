@@ -1,0 +1,6 @@
+{
+  "name": "Roofing Website & CRM Board",
+  "description": "High quality, modern premium roofing company website featuring standing seam metal, natural slate, thermal drone diagnostics, verified testimonial sliders, and a full-stack booking capture CRM dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
